@@ -12,7 +12,7 @@ if(hozir === "qor"){
 }
  if(hozir === "issiq"){
     console.log("havo issiq , yengilroq kiyining");
-}
+}llllll
 else{
     console.log("havo sovuq , qalin kiying");
 }
