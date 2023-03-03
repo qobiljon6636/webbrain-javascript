@@ -10,6 +10,12 @@
 //============
 
 2-masala
-let name='ESMASscript';
-if (name === 'ESMASscript') console.log('right');
-else console.log('You dont know ESMASscript');
+// let name='ESMASscript';
+// if (name === 'ESMASscript') console.log('right');
+// else console.log('You dont know ESMASscript');
+
+//===========
+3-masala
+let a=2;
+let x=1+(a *=2);
+console.log(x);

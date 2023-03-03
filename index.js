@@ -1,18 +1,39 @@
-// yomg'ir,qor ,issiq ,soviq.
+//let a=1
+//b=2
+//if (a+b<4){
+  //  console.log("below");}
+//else{
+  //  console.log("over");}
+//if('0'){
+  //  alert('Hello');}
+
+//============
+
+//2-masala
+// let name='ESMASscript';
+// if (name === 'ESMASscript') console.log('right');
+// else console.log('You dont know ESMASscript');
+
+//===========
 
 
-let hozir="jhdj"
+// let result;
+// if (a + b < 4){
+//     result='Below';
+// }else{
+//     result='over';
+// }
 
-if(hozir === "qor"){
-    console.log("havo sovuq,issiqroq kiyinib oling");
-}
- if(hozir === "yomg'ir"){
-    console.log("havo sovuq, soyobon oling qalimroq kiying");
+// ReferenceError
 
-}
- if(hozir === "issiq"){
-    console.log("havo issiq , yengilroq kiyining");
-}llllll
-else{
-    console.log("havo sovuq , qalin kiying");
-}
+//=============
+
+// let message ;
+
+// (login == Employee)? {
+//     messege='Hello';
+// }else if(login == 'Director'){
+//     message = 'Greeting';
+// }else if(login == ''){
+//     message ='No login';
+// }: message = '';
