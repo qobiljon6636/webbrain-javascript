@@ -1,35 +1,54 @@
-// let user = {
-//     name:'John',
-//     surname:'Smith'
+
+
+// let name="webbrain";
+// let title="Lazizjon ";
+
+// let obj={
+//     [name]:"eshmat",
+//     ["name"]:"nmadur",
+//     name:"webbrain",
+//     "name":"toshmat",
+    
 // }
-// user.name='Pete'
+// console.log(obj[name]);
+// console.log(obj.name);
+// console.log(obj["name"]);
+
+
+//=================================
+
+// let obj={
+//     name:"webbrain",
+//     title:"it centr",
+//     "cons log":"hi webbrain"
+// }
+
+// obj.age=8526
+
+// console.log(obj.name);
+// console.log(obj.title);
+// console.log(obj["cons log"]);
+// console.log(obj.age);
+// console.log(obj);
+
+//==================================
+
+// let obj={
+//     name:"eshmat",
+//     titel:"toshmat"
+// }
+// let user=obj;
+// obj.name="webbrain"
 // console.log(user);
 
-//================================
+//===========================
 
-// let salaries = {
-//     John:100,
-//     Ann:160,
-//     Pete:130
+// let obj={
+//     name:"webbrain",
+//     title:" centr",
+//     "it centr":"hi webbrain"
 // }
-// let name=0;
-// for(let i in salaries){
-// name=name+salaries[i]
-// }
-// console.log(name);
-
-//==========================
-
-// let menu= {
-//     width:200,
-//     height:300,
-//     title:"My menu"
-// }
-// function multiplyNumeric(name){
-//     for(let i in name){
-//         if(typeof name[i]=="number")
-//         name[i]=name[i]*2
-//     }
-//     console.log(name);
-// }
-// multiplyNumeric(menu)
+// let user=structuredClone(obj);
+// obj.name="eshmat"
+// console.log(user);
+// console.log(obj);
