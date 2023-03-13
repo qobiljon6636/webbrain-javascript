@@ -1,184 +1,28 @@
+// let a=101;
+// let b=4321;
 
-// let name="webbrain";
-// let title="Lazizjon ";
+// console.log(Math.abs(a-b));
 
-// let obj={
-//     [name]:"eshmat",
-//     ["name"]:"nmadur",
-//     name:"webbrain",
-//     "name":"toshmat",
+// =================================
 
-// }
-// console.log(obj[name]);
-// console.log(obj.name);
-// console.log(obj["name"]);
+// let a="12.456432";
+
+// console.log(Math.trunc(a));
+//Bu faqat butun qismini olib berad "parsInt"dan farqi bun bu qiymatni ohirigacha tekshiradi ,agar orasida harf qatnashedigon bolsa nan qiymat qaytarad.
 
 
-//=================================
+// let a=2.543;
 
-// let obj={
-//     name:"webbrain",
-//     title:"it centr",
-//     "cons log":"hi webbrain"
-// }
+// console.log(Math.ceil(a));
 
-// obj.age=8526
-
-// console.log(obj.name);
-// console.log(obj.title);
-// console.log(obj["cons log"]);
-// console.log(obj.age);
-// console.log(obj);
-
-//==================================
-
-// let obj={
-//     name:"eshmat",
-//     titel:"toshmat"
-// }
-// let user=obj;
-// obj.name="webbrain"
-// console.log(user);
-
-//===========================
-
-// let obj={
-//     name:"webbrain",
-//     title:" centr",
-//     "it centr":"hi webbrain"
-// }
-// let user=structuredClone(obj);
-// obj.name="eshmat"
-// console.log(user);
-// console.log(obj);
-//==================================
+//bunda qoldiq qismi bolsa unga 1 qiymat qoshib beradi :misol a=2.001=> qiymat 3 chiqad
 
 
+// let a=2.9999;
 
-// let user={
-//     name:"web",
-//     sayHi(){console.log(this);
-//     console.log(`HI, $ {this.name}`);}
-// }
-// user.sayHi()
+// console.log(Math.floor(a));
 
-
-// function getName(){
-// //    this. name="web",
-//     console.log(new.target);
-// }
-
-// console.log(new getName("esh"));
-
-
-// let obj={
-//     name:"eshmat",
-//     title:"toshmat"
-// }
-// const {name,title}=obj;
-// console.log(title);
-// console.log(name);
-
-// let obj={
-//     name:"eshmat",
-//     title:"toshmat",
-//     child:{childname:"test"}
-// }
-// const {name,title,child:{childname}}=obj;
-// console.log(title);
-// console.log(name);
-// console.log(childname);
-
-
-// let obj ={
-//     name:"web",
-//     child:{
-//         childname:"eshmat"
-//     }
-// }
-// obj={...obj.child}
-// console.log(obj);
-
-
-// let user={
-//     name:"web",
-//     sayHi(){console.log(this.sayHi);
-//     console.log(`Hi, $ {this.name}`);}
-// }
-// user.sayHi()
-
-// function getName(){
-//     this.name="eshmat",
-//     console.log(this);
-// }
-// console.log(new getName().name);
-
-// let obj = {
-//     firstName: 'Qobiljon ',
-//     lastName: 'Sobirov',
-//     fullName() {
-//         return obj.firstName +  obj.lastName;
-//     }
-// }  
-
-
-// function Person(firstName, lastName) {
-//     this.firstName = firstName,
-//     this.lastName = lastName
-// }
-
-// let user1 = new Person('Qobiljon', 'Sobirov');
-// let user2 = new Person('Zuhriddin', 'Mahfiy');
-// console.log(user1.firstName);
-// console.log(user2);
-
-// let object = {
-//     firstName: 'Qobiljon',
-//     lastName: 'Sobirov'
-// };
-
-// const {firstName, lastName} = object;
-
-// const name = object.firstName;
-
-// console.log(name);
-
-//=====================================================
-
-
-
-
-// function getName(){
-//     return new.target;
-// }
-
-// function getSurname(){
-//     return getName;
-// }
-
-// let a=new getName;
-// let b=new getSurname;
-// console.log(a==b);
-
-//=================================
-
-
-// let name={
-//     step:0,
-//     up(){
-//         this.step++;
-//     },
-//     down(){
-//         this.step--;
-//     },
-//     showStep: function(){
-//         alert(this.step)
-//     }
-// }
-// name.up()
-
-// console.log(name);
-
+//bunda faqat butun qsmini olib qoladi qoldiq qismi ahamyatsiz bolib qoladi
 
 
 
