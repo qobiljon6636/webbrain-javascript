@@ -84,4 +84,72 @@
 
 
 
+let n=5
+// function getName(n){
+//     if(n==1){
+//         return n;
+//     }else{
+// return n*getName(n-1)
+//     }
+// }
+// getName(n)
+// console.log(getName(n));
+//====================================
+// function fibonacci(n){
+//   let fib=[0,1];
+//   for(i=2;i<=n;i++){
+//     fib[i]=fib[i-2]+fib[i-1];
+//     console.log(fib[i]);
+//     fibonacci=fib[i]
+//   }
+//   return fibonacci;
+// }
+// console.log(fibonacci(7));
+
+//===============================
+
+// class get{
+//   #password=456;
+//   constructor (name){
+//     this.name=name;
+//     console.log(`Welcome to ${this._password}`);
+//   }
+//   getData (){
+//     console.log(`Welcome to ${this._password}`);
+// }
+// getPw(){
+//   console.log(`Welcome to ${this._password}`);
+// }
+// }
+
+// const get= new get("Lazizjon maraz")
+
+// get.getPw()
+
+
+//=======================================
+
+// class Animal{
+//   constructor(name){
+//     this.name=name;
+//   }
+
+// }
+// class Rabbit extends Animal{
+//   constructor(name){
+//     this.name=name;
+//     this.created=Date.now();
+//   }
+// }
+// const rab=new Rabbit("Sobirov Qobiljon");
+// alert(rab.name)
+// rab.name
+//==========================================
+// class Rabbit extends Object{
+//   constructor(super){
+//     this.super=super
+//   }
+// }
+// let rabbit=new Rabbit("Rab");
+// alert(rabbit.hasOwnProperty());
 
